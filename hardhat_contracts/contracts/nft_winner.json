@@ -1,0 +1,15 @@
+{
+    "name": "NFT Winner",
+    "description": "NFT Winner",
+    "image": "https://ipfs.io/ipfs/Qmd6CQ6JNjzTjwNybXNtNYJuPQoAymkouXq3WonU9WyNh7",
+    "attributes": [
+        {
+          "trait-type": "Type",
+          "value": "Winner"        
+        },
+        {
+          "trait-type": "Score",
+          "value": "100%"
+        }
+    ]
+  }
