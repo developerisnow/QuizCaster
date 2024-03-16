@@ -1,2 +1,4 @@
 node_modules
 _docs/_documentation/*
+_docs/logs/*
+_examples/*
