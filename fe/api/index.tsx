@@ -1,4 +1,4 @@
-import { Button, Frog, TextInput } from 'frog'
+import { Button, Frog } from 'frog'
 // import { neynar } from 'frog/hubs'
 import { handle } from 'frog/vercel'
 
