@@ -43,7 +43,7 @@ contract QuizGame {
         hasParticipated[msg.sender] = true;
 
         // It will generate NFT according to the score of the user
-        nftContract.safeMint(msg.sender, _userScore);
+        nftContract.safeMint_Score(msg.sender, _userScore);
     }
 
     function contributeToPoolPrize()   external{
