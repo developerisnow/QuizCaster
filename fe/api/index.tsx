@@ -39,60 +39,93 @@ app.frame('/apecoin', (c) => {
 })
 
 app.frame('/nouns', (c) => {
-  // const { status } = c
+  const { buttonValue } = c
+  
+  if (buttonValue !== 'correct') {
+    return c.res({
+      image: `/badluck.png`,
+      imageAspectRatio: '1:1',
+      intents: [
+        <Button.Reset>START OVER BRO!!!</Button.Reset>,
+      ],
+    })
+  }
+
   return c.res({
     action: '/ens',
     image: `/nouns.png`,
     imageAspectRatio: '1:1',
     intents: [
-      <Button value="correct">[A]</Button>,
-      <Button value="incorrect">[B]</Button>,
+      <Button value="incorrect">[A]</Button>,
+      <Button value="correct">[B]</Button>,
       <Button value="incorrect">[C]</Button>,
     ],
   })
 })
 
 app.frame('/ens', (c) => {
-  // const { status } = c
+  const { buttonValue } = c
+  
+  if (buttonValue !== 'correct') {
+    return c.res({
+      image: `/badluck.png`,
+      imageAspectRatio: '1:1',
+      intents: [
+        <Button.Reset>START OVER BRO!!!</Button.Reset>,
+      ],
+    })
+  }
+
   return c.res({
     action: '/chiliz',
     image: `/ens.png`,
     imageAspectRatio: '1:1',
     intents: [
-      <Button value="correct">[A]</Button>,
+      <Button value="incorrect">[A]</Button>,
       <Button value="incorrect">[B]</Button>,
-      <Button value="incorrect">[C]</Button>,
+      <Button value="correct">[C]</Button>,
     ],
   })
 })
 
 app.frame('/chiliz', (c) => {
-  // const { status } = c
+  const { buttonValue } = c
+  
+  if (buttonValue !== 'correct') {
+    return c.res({
+      image: `/badluck.png`,
+      imageAspectRatio: '1:1',
+      intents: [
+        <Button.Reset>START OVER BRO!!!</Button.Reset>,
+      ],
+    })
+  }
+
   return c.res({
     action: '/end',
     image: `/chiliz.png`,
     imageAspectRatio: '1:1',
     intents: [
-      <Button value="correct">[A]</Button>,
-      <Button value="incorrect">[B]</Button>,
+      <Button value="incorrect">[A]</Button>,
+      <Button value="correct">[B]</Button>,
       <Button value="incorrect">[C]</Button>,
     ],
   })
 })
 
-app.frame('/badluck', (c) => {
-  // const { status } = c
-  return c.res({
-    image: `/badluck.png`,
-    imageAspectRatio: '1:1',
-    intents: [
-      <Button value="correct">START OVER BRO!!!</Button>,
-    ],
-  })
-})
-
 app.frame('/end', (c) => {
-  // const { status } = c
+  const { buttonValue } = c
+  
+  if (buttonValue !== 'correct') {
+    return c.res({
+      image: `/badluck.png`,
+      imageAspectRatio: '1:1',
+      intents: [
+        <Button.Reset>START OVER BRO!!!</Button.Reset>,
+      ],
+    })
+  }
+
   return c.res({
     image: `/end.png`,
     imageAspectRatio: '1:1',
@@ -101,7 +134,7 @@ app.frame('/end', (c) => {
       <Button.Mint
       target="eip155:84532:0xA06B908f35e713a5E731BB9D1e50F3F347124e58">
         {/* target="eip155:84532:0xA06B908f35e713a5E731BB9D1e50F3F347124e58:<token-id-optional>" */}
-        Mint
+        MINT NFT - HODL
       </Button.Mint>
     ],
   })
