@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ApeCoin Quiz</title>
+</head>
+<body>
+    <div id="quiz"></div>
+
+    <script>
+        fetch('./ape_coin_quiz.json')
+            .then(response => response.json())
+            .then(data => {
+                const quizContainer = document.getElementById('quiz');
+                data.questions.forEach(question => {
+                    const questionEl = document.createElement('div');
+                    questionEl.innerHTML = `
+                        <h3>${question.question}</h3>
+                        <img src="${question.image}" alt="Question Image" style="width: 540px; height: 350px;">
+                        <p>${Object.entries(question.options).map(([key, value]) => `${key}: ${value}`).join('<br>')}</p>
+                    `;
+                    quizContainer.appendChild(questionEl);
+                });
+            });
+    </script>
+</body>
+</html>

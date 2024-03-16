@@ -1,0 +1,64 @@
+{
+    "questions": [
+        {
+            "question": "What is the primary purpose of ApeCoin in the Web3 economy?",
+            "options": {
+                "A": "To serve as the only currency for online transactions.",
+                "B": "To support community-led initiatives that drive culture into the metaverse.",
+                "C": "To replace traditional forms of governance with blockchain technology.",
+                "D": "To provide a platform for gaming and entertainment only."
+            },
+            "answer": "B",
+            "fun_fact": "ApeCoin is all about empowering a decentralized community to shape the future of digital culture.",
+            "image": "./img/001.webp"
+        },
+        {
+            "question": "Who stewards the growth and development of the APE ecosystem?",
+            "options": {
+                "A": "The APE Board",
+                "B": "The APE Foundation",
+                "C": "Yuga Labs",
+                "D": "The DAO members directly",
+                "image": "./img/002.webp"
+            },
+            "answer": "B",
+            "fun_fact": "The APE Foundation acts as the base layer on which ApeCoin holders can build, not as an overseer."
+        },
+        {
+            "question": "What does DAO stand for in the context of ApeCoin?",
+            "options": {
+                "A": "Decentralized Autonomous Organization",
+                "B": "Digital Asset Optimization",
+                "C": "Distributed Application Operations",
+                "D": "Decentralized Asset Ownership"
+            },
+            "answer": "A",
+            "fun_fact": "DAOs are critical for decentralized governance, crucial to the success of globally dispersed communities.",
+            "image": "./img/003.webp"
+        },
+        {
+            "question": "What exclusive access does ApeCoin provide?",
+            "options": {
+                "A": "Early access to all web3 games.",
+                "B": "Exclusive games, merch, events, and services within its ecosystem.",
+                "C": "Unlimited storage on the blockchain.",
+                "D": "Free transactions for all its holders."
+            },
+            "answer": "B",
+            "fun_fact": "Holding ApeCoin unlocks parts of its ecosystem that are otherwise unavailable.",
+            "image": "./img/004.webp"
+        },
+        {
+            "question": "How is ApeCoin's total supply managed?",
+            "options": {
+                "A": "It increases annually based on DAO decisions.",
+                "B": "It decreases whenever a token is used for transactions.",
+                "C": "It is permanently fixed with no capability for increase or decrease.",
+                "D": "It is adjusted based on the performance of the ecosystem."
+            },
+            "answer": "C",
+            "fun_fact": "With a total supply permanently fixed at 1 billion tokens, ApeCoin ensures scarcity and value retention.",
+            "image": "./img/005.webp"
+        }
+    ]
+}
