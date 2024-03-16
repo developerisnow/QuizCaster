@@ -16,8 +16,19 @@ export const app = new Frog({
 
 app.frame('/', (c) => {
   return c.res({
+    action: '/apecoin',
+    image: `/start.png`,
+    imageAspectRatio: '1:1',
+    intents: [
+      <Button>START QUIZ NOW - FOMO IN!!!</Button>,
+    ],
+  })
+})
+
+app.frame('/apecoin', (c) => {
+  return c.res({
     action: '/nouns',
-    image: `/1PurposeOfApecoin.png`,
+    image: `/apecoin.png`,
     imageAspectRatio: '1:1',
     intents: [
       <Button value="correct">🤝 [A] 🌐</Button>,
@@ -30,7 +41,35 @@ app.frame('/', (c) => {
 app.frame('/nouns', (c) => {
   // const { status } = c
   return c.res({
+    action: '/ens',
     image: `/nouns.png`,
+    imageAspectRatio: '1:1',
+    intents: [
+      <Button value="correct">[A]</Button>,
+      <Button value="incorrect">[B]</Button>,
+      <Button value="incorrect">[C]</Button>,
+    ],
+  })
+})
+
+app.frame('/ens', (c) => {
+  // const { status } = c
+  return c.res({
+    action: '/chiliz',
+    image: `/ens.png`,
+    imageAspectRatio: '1:1',
+    intents: [
+      <Button value="correct">[A]</Button>,
+      <Button value="incorrect">[B]</Button>,
+      <Button value="incorrect">[C]</Button>,
+    ],
+  })
+})
+
+app.frame('/chiliz', (c) => {
+  // const { status } = c
+  return c.res({
+    image: `/chiliz.png`,
     imageAspectRatio: '1:1',
     intents: [
       <Button value="correct">[A]</Button>,
