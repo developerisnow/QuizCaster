@@ -1,0 +1,65 @@
+{
+    "questions": [
+      {
+        "question": "What is the primary function of the Chiliz blockchain in the sports and entertainment industry?",
+        "options": {
+          "A": "To serve as a platform for video streaming.",
+          "B": "To act as a digital marketplace for sports merchandise.",
+          "C": "To provide infrastructure for web3 products and experiences that connect fans with brands.",
+          "D": "To offer a betting platform for sports events."
+        },
+        "answer": "C",
+        "fun_fact": "Chiliz aims to revolutionize fan engagement in sports and entertainment through web3 technologies, bringing fans closer to the teams and brands they love.",
+        "image": "./img/chiliz_01.webp"
+      },
+      {
+        "question": "What consensus mechanism does the Chiliz Chain use?",
+        "options": {
+          "A": "Proof of Work (PoW)",
+          "B": "Proof of Authority (PoA)",
+          "C": "Proof of Stake (PoS)",
+          "D": "Proof of Staked Authority (PoSA)"
+        },
+        "answer": "D",
+        "fun_fact": "Chiliz Chain utilizes the Proof of Staked Authority (PoSA) consensus mechanism, blending the best of PoA for efficiency and PoS for decentralization.",
+        "image": "./img/chiliz_02.webp"
+      },
+      {
+        "question": "What unique digital assets are pioneered by Socios.com using the Chiliz blockchain technology?",
+        "options": {
+          "A": "Cryptocurrencies",
+          "B": "Fan Tokens",
+          "C": "Digital Art",
+          "D": "Game Skins"
+        },
+        "answer": "B",
+        "fun_fact": "Fan Tokens are a groundbreaking digital asset class that enhance fan experiences, offering a new way for fans to engage with their favorite teams.",
+        "image": "./img/chiliz_03.webp"
+      },
+      {
+        "question": "What major upgrade did Chiliz implement to expand its ecosystem?",
+        "options": {
+          "A": "ChilizX",
+          "B": "Socios Collectibles",
+          "C": "Chiliz Chain 2.0",
+          "D": "Legacy Chain"
+        },
+        "answer": "C",
+        "fun_fact": "Chiliz Chain 2.0, leveraging the Proof of Staked Authority (PoSA) algorithm, marks a significant evolution, inviting more stakeholders to contribute to the network.",
+        "image": "./img/chiliz_04.webp"
+      },
+      {
+        "question": "How does Chiliz Chain aim to differentiate itself in the blockchain space?",
+        "options": {
+          "A": "By focusing exclusively on financial transactions.",
+          "B": "Through specializing in the sports and entertainment sectors with tailored web3 solutions.",
+          "C": "By offering higher transaction speeds than any other blockchain.",
+          "D": "Providing a platform for anonymous transactions only."
+        },
+        "answer": "B",
+        "fun_fact": "Chiliz Chain is carving out a niche in the blockchain world by focusing on creating web3 experiences specifically designed for sports and entertainment.",
+        "image": "./img/chiliz_05.webp"
+      }
+    ]
+  }
+  

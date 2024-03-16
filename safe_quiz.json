@@ -1,0 +1,65 @@
+{
+    "questions": [
+      {
+        "question": "What does Safe specialize in within the Ethereum ecosystem?",
+        "options": {
+          "A": "Creating digital art",
+          "B": "Developing smart wallet infrastructure",
+          "C": "Launching new cryptocurrencies",
+          "D": "Offering decentralized finance (DeFi) solutions"
+        },
+        "answer": "B",
+        "fun_fact": "Safe, originally known as Gnosis Safe, is a leader in account abstraction on Ethereum, offering the most secure smart wallet infrastructure.",
+        "image": "./img/safe_01.webp"
+      },
+      {
+        "question": "What consensus algorithm is associated with the Safe network?",
+        "options": {
+          "A": "Proof of Work (PoW)",
+          "B": "Proof of Authority (PoA)",
+          "C": "Proof of Stake (PoS)",
+          "D": "None of the above"
+        },
+        "answer": "D",
+        "fun_fact": "Safe itself does not operate on a blockchain consensus algorithm; instead, it focuses on smart account and wallet infrastructure atop existing blockchains.",
+        "image": "./img/safe_02.webp"
+      },
+      {
+        "question": "What is the main goal of Safe in the web3 space?",
+        "options": {
+          "A": "To enhance gaming experiences",
+          "B": "To provide a standard for ownership with smart accounts",
+          "C": "To focus on cryptocurrency mining",
+          "D": "To develop new blockchain platforms"
+        },
+        "answer": "B",
+        "fun_fact": "Safe aims to establish a new standard for digital ownership and security through the use of smart accounts, facilitating a seamless transition to web3.",
+        "image": "./img/safe_03.webp"
+      },
+      {
+        "question": "How does Safe improve upon externally-owned accounts (EOAs)?",
+        "options": {
+          "A": "By reducing transaction fees",
+          "B": "By offering faster transaction speeds",
+          "C": "By providing more secure and flexible account infrastructure",
+          "D": "By enabling anonymous transactions"
+        },
+        "answer": "C",
+        "fun_fact": "Safe addresses the limitations of EOAs with smart accounts that offer enhanced security, flexibility, and user experience.",
+        "image": "./img/safe_04.webp"
+      },
+      {
+        "question": "What mechanism does Safe utilize to allow payment of gas fees in ERC-20 tokens?",
+        "options": {
+          "A": "ERC-20 token standard",
+          "B": "ERC-721 NFT standard",
+          "C": "ERC-4337 standard",
+          "D": "ERC-1155 multi-token standard"
+        },
+        "answer": "C",
+        "fun_fact": "ERC-4337 allows for flexible payment options for gas fees, including the use of ERC-20 tokens, enhancing usability and accessibility.",
+        "image": "./img/safe_05.webp"
+      }
+    ]
+  }
+  

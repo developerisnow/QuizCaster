@@ -1,0 +1,65 @@
+{
+    "questions": [
+      {
+        "question": "What is the primary feature of ENS?",
+        "options": {
+          "A": "Decentralized finance (DeFi) protocols",
+          "B": "Web3 username and profile data storage",
+          "C": "Cryptocurrency mining",
+          "D": "Virtual reality platforms"
+        },
+        "answer": "B",
+        "fun_fact": "ENS allows users to own their username, store avatars, and other profile data, usable across various services.",
+        "image": "./img/ens_01.webp"
+      },
+      {
+        "question": "What does ENS stand for?",
+        "options": {
+          "A": "Ethereum Network Service",
+          "B": "Encryption Name System",
+          "C": "Ethereum Name Service",
+          "D": "Electronic Numbering System"
+        },
+        "answer": "C",
+        "fun_fact": "ENS stands for Ethereum Name Service, a key component of Ethereum's aim to be the internet's value layer.",
+        "image": "./img/ens_02.webp"
+      },
+      {
+        "question": "How many names has ENS registered?",
+        "options": {
+          "A": "Over 1 million",
+          "B": "2.14 million",
+          "C": "500,000",
+          "D": "3 million"
+        },
+        "answer": "B",
+        "fun_fact": "ENS has registered 2.14 million names, showcasing its widespread adoption and integration.",
+        "image": "./img/ens_03.webp"
+      },
+      {
+        "question": "What can ENS names store and receive?",
+        "options": {
+          "A": "Emails only",
+          "B": "Cryptocurrency and tokens",
+          "C": "Text messages",
+          "D": "Digital certificates"
+        },
+        "answer": "B",
+        "fun_fact": "ENS names can store all your addresses to receive any cryptocurrency, token, or NFT.",
+        "image": "./img/ens_04.webp"
+      },
+      {
+        "question": "What is the native name suffix for ENS?",
+        "options": {
+          "A": ".com",
+          "B": ".eth",
+          "C": ".web3",
+          "D": ".crypto"
+        },
+        "answer": "B",
+        "fun_fact": ".ETH is the native name suffix for ENS, providing full security benefits of blockchain-native integration.",
+        "image": "./img/ens_05.webp"
+      }
+    ]
+  }
+  

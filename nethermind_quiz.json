@@ -1,0 +1,65 @@
+{
+    "questions": [
+      {
+        "question": "What is the main goal of Nethermind in the blockchain industry?",
+        "options": {
+          "A": "To focus solely on profit-making ventures.",
+          "B": "To provide simple solutions to complex blockchain problems, empowering developers and enterprises.",
+          "C": "To create a centralized platform for blockchain applications.",
+          "D": "To compete directly with Ethereum and Starknet."
+        },
+        "answer": "B",
+        "fun_fact": "Nethermind aims to empower developers and enterprises worldwide with the simplest solutions to the hardest problems in blockchain.",
+        "image": "./img/nethermind_01.webp"
+      },
+      {
+        "question": "What significant contribution has Nethermind made towards Ethereum's development?",
+        "options": {
+          "A": "Creating a new blockchain to rival Ethereum.",
+          "B": "Implementing EOF, optimizing Ethereum's performance and developer environment.",
+          "C": "Shutting down its Ethereum client due to scalability issues.",
+          "D": "Focusing solely on Starknet development."
+        },
+        "answer": "B",
+        "fun_fact": "Nethermind is one of the first clients to implement EOF, which enhances Ethereum's performance and offers a more developer-friendly environment.",
+        "image": "./img/nethermind_02.webp"
+      },
+      {
+        "question": "How does Nethermind support the Starknet ecosystem?",
+        "options": {
+          "A": "By exclusively promoting Ethereum projects.",
+          "B": "Through creating competing layer 2 solutions.",
+          "C": "By delivering infrastructure and developer resources, including a node implementation and a block explorer.",
+          "D": "Nethermind does not support Starknet."
+        },
+        "answer": "C",
+        "fun_fact": "Nethermind contributes to the Starknet ecosystem by providing essential infrastructure and developer tools.",
+        "image": "./img/nethermind_03.webp"
+      },
+      {
+        "question": "What innovative tool has Nethermind developed for Ethereum solo stakers and testnet developers?",
+        "options": {
+          "A": "A complex multi-chain explorer.",
+          "B": "A cryptocurrency wallet.",
+          "C": "Sedge, a one-click node setup tool.",
+          "D": "An exclusive Dapp store."
+        },
+        "answer": "C",
+        "fun_fact": "Sedge simplifies the process of setting up nodes for Ethereum solo stakers and testnet developers, making it accessible with just one click.",
+        "image": "./img/nethermind_04.webp"
+      },
+      {
+        "question": "In collaboration with which organizations is Nethermind working to implement account abstraction?",
+        "options": {
+          "A": "Only with Starknet.",
+          "B": "Ethereum Foundation and OpenGSN.",
+          "C": "Various centralized exchanges.",
+          "D": "Nethermind operates independently without collaborations."
+        },
+        "answer": "B",
+        "fun_fact": "Nethermind collaborates with the Ethereum Foundation and OpenGSN to develop a user-friendly and decentralized implementation of account abstraction.",
+        "image": "./img/nethermind_05.webp"
+      }
+    ]
+  }
+  

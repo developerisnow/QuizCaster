@@ -1,0 +1,65 @@
+{
+    "questions": [
+      {
+        "question": "What unique solution did Arbitrum's founders focus on to address blockchain scalability issues?",
+        "options": {
+          "A": "Proof of Work enhancements",
+          "B": "Interactive fraud proofs",
+          "C": "Faster block generation times",
+          "D": "Increased block size limits"
+        },
+        "answer": "B",
+        "fun_fact": "Interactive fraud proofs allow for back-and-forth communication to identify the true chain state, a novel approach conceived even before Ethereum's launch.",
+        "image": "./img/arbitrum_01.webp"
+      },
+      {
+        "question": "What was the key motivation behind developing Arbitrum?",
+        "options": {
+          "A": "To create a private blockchain",
+          "B": "To serve as Ethereum's main competitor",
+          "C": "To be a credibly neutral settlement layer for the world",
+          "D": "To focus solely on financial transactions"
+        },
+        "answer": "C",
+        "fun_fact": "Ethereum's potential as a neutral platform inspired Arbitrum's founders to enhance its scalability and inclusiveness.",
+        "image": "./img/arbitrum_02.webp"
+      },
+      {
+        "question": "What major upgrade did Arbitrum undergo to improve scalability?",
+        "options": {
+          "A": "Arbitrum Classic",
+          "B": "Arbitrum Nitro",
+          "C": "Arbitrum Ultra",
+          "D": "Arbitrum Plasma"
+        },
+        "answer": "B",
+        "fun_fact": "Arbitrum Nitro marks a significant leap in scaling technology, offering lower costs and higher throughput.",
+        "image": "./img/arbitrum_03.webp"
+      },
+      {
+        "question": "How does Arbitrum ensure decentralized governance?",
+        "options": {
+          "A": "By a centralized team of developers",
+          "B": "Through a singular entity",
+          "C": "Via the Arbitrum DAO controlled by no single entity",
+          "D": "Only through the original founders"
+        },
+        "answer": "C",
+        "fun_fact": "The Arbitrum DAO empowers the community to shape its future, emphasizing decentralized governance.",
+        "image": "./img/arbitrum_04.webp"
+      },
+      {
+        "question": "What does Arbitrum Nitro use to achieve compatibility with Ethereum?",
+        "options": {
+          "A": "A unique consensus algorithm",
+          "B": "Its own virtual machine",
+          "C": "A specialized token system",
+          "D": "Fraud proofs and rollup technology"
+        },
+        "answer": "D",
+        "fun_fact": "Nitro's advanced scaling technology ensures seamless interaction with Ethereum, maintaining security and reducing costs.",
+        "image": "./img/arbitrum_05.webp"
+      }
+    ]
+  }
+  
