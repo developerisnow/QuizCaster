@@ -59,6 +59,66 @@
             "answer": "C",
             "fun_fact": "With a total supply permanently fixed at 1 billion tokens, ApeCoin ensures scarcity and value retention.",
             "image": "./img/005.webp"
+        },
+        {
+            "question": "What is the role of the APE Foundation in relation to the ApeCoin DAO?",
+            "options": {
+                "A": "To control and make all decisions for the ApeCoin DAO.",
+                "B": "To serve as an advisory board without any real power.",
+                "C": "To administer the decisions of the ApeCoin DAO and support its day-to-day operations.",
+                "D": "To create and sell ApeCoin exclusively."
+            },
+            "answer": "C",
+            "fun_fact": "The APE Foundation serves as the administrative backbone, ensuring the ApeCoin DAO's visions come to fruition.",
+            "image": "./img/006.webp"
+        },
+        {
+            "question": "How does ApeCoin aim to impact the web3 economy?",
+            "options": {
+                "A": "By becoming the exclusive cryptocurrency for all digital transactions.",
+                "B": "By driving culture forward into the metaverse through community-led initiatives.",
+                "C": "By replacing all other forms of digital currency.",
+                "D": "By facilitating anonymous transactions only."
+            },
+            "answer": "B",
+            "fun_fact": "ApeCoin is a catalyst for cultural evolution in the web3 space, empowering creative and community-driven projects.",
+            "image": "./img/007.webp"
+        },
+        {
+            "question": "What makes the ApeCoin DAO membership unique?",
+            "options": {
+                "A": "Membership is by invitation only from existing members.",
+                "B": "It is open to all ApeCoin holders, democratizing governance.",
+                "C": "Members must pass a test to join.",
+                "D": "Membership comes with an annual fee."
+            },
+            "answer": "B",
+            "fun_fact": "The inclusivity of ApeCoin DAO membership allows for a broad and diverse range of voices in its governance.",
+            "image": "./img/008.webp"
+        },
+        {
+            "question": "What key governance feature does ApeCoin offer to its holders?",
+            "options": {
+                "A": "Voting rights on what color the next Bored Ape should be.",
+                "B": "Deciding the salaries of the APE Foundation board members.",
+                "C": "Voting on Ecosystem Fund allocations, governance rules, projects, and partnerships.",
+                "D": "Choosing which cryptocurrencies to pair with ApeCoin on exchanges."
+            },
+            "answer": "C",
+            "fun_fact": "Through governance features, ApeCoin holders have a direct impact on the ecosystem’s development and direction.",
+            "image": "./img/009.webp"
+        },
+        {
+            "question": "What fundamental principle underpins the ApeCoin DAO's approach to governance?",
+            "options": {
+                "A": "Centralized decision-making by a select few.",
+                "B": "Random selection of proposals for implementation.",
+                "C": "Decentralized governance to build and manage a globally dispersed community.",
+                "D": "Automated governance through artificial intelligence."
+            },
+            "answer": "C",
+            "fun_fact": "Decentralized governance is crucial for the inclusive and equitable development of the APE ecosystem.",
+            "image": "./img/010.webp"
         }
     ]
 }
