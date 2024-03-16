@@ -20,7 +20,7 @@ app.frame('/', (c) => {
     image: `/start.png`,
     imageAspectRatio: '1:1',
     intents: [
-      <Button>START QUIZ NOW - FOMO IN!!!</Button>,
+      <Button>DEGEN QUIZ - FOMO IN</Button>,
     ],
   })
 })
@@ -69,12 +69,35 @@ app.frame('/ens', (c) => {
 app.frame('/chiliz', (c) => {
   // const { status } = c
   return c.res({
+    action: '/end',
     image: `/chiliz.png`,
     imageAspectRatio: '1:1',
     intents: [
       <Button value="correct">[A]</Button>,
       <Button value="incorrect">[B]</Button>,
       <Button value="incorrect">[C]</Button>,
+    ],
+  })
+})
+
+app.frame('/badluck', (c) => {
+  // const { status } = c
+  return c.res({
+    image: `/badluck.png`,
+    imageAspectRatio: '1:1',
+    intents: [
+      <Button value="correct">START OVER BRO!!!</Button>,
+    ],
+  })
+})
+
+app.frame('/end', (c) => {
+  // const { status } = c
+  return c.res({
+    image: `/end.png`,
+    imageAspectRatio: '1:1',
+    intents: [
+      <Button value="correct">MINT</Button>,
     ],
   })
 })
