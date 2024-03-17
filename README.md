@@ -1,4 +1,4 @@
-# QuizCaster : Memes for the sake of Web3 community engagement !
+# QuizCaster : Games & Memes for the sake of Web3 community engagement !
 
 Our project, at its core, is an innovative platform that seamlessly integrates Web3 Blockchain Education into the Farcaster ecosystem. This initiative is designed to break down the complexities of blockchain technology, making it accessible, understandable, and engaging for a wide audience, directly within the context of their Farcaster experiences the hottest place in Web3's galaxy!!!
 
