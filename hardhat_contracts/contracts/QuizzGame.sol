@@ -18,6 +18,7 @@ contract QuizGame {
     mapping(address => bool) public hasParticipated;
     mapping(address => bool) public hasContributed;
 
+// 0x758190BFf003d5b33acb2b29b4A4798354502174, 0x8baE1075eA05D56BAAF9EAB9DD31c9c724771796, 100000000, 120
 
     constructor(address _apeCoinAddress, address _nftContractAddress, uint256 _entryFee, uint256 _duration) {
         apeCoin = IERC20(_apeCoinAddress);
@@ -29,7 +30,7 @@ contract QuizGame {
     }
 
     function rewardParticipationWithNFT(uint256 _userScore) external {
-        require(block.timestamp >= startTime && block.timestamp <= endTime, "Quiz is not active");
+        //require(block.timestamp >= startTime && block.timestamp <= endTime, "Quiz is not active");
         require(!hasParticipated[msg.sender], "Already participated");
         require(hasContributed[msg.sender], "No Contribution to Pool Prize");
 
@@ -46,26 +47,37 @@ contract QuizGame {
         nftContract.safeMint_Score(msg.sender, _userScore);
     }
 
+    event allowanceValue(uint _allowance, uint _fee);
+    event approval(uint _fee); 
+
+    /*function approve_() external {
+
+        apeCoin.approve(address(this), entryFee + 1000);
+        emit  approval( entryFee);
+
+    }*/
+
     function contributeToPoolPrize()   external{
-        require(block.timestamp >= startTime && block.timestamp <= endTime, "Quiz is not active");
+        //require(block.timestamp >= startTime && block.timestamp <= endTime, "Quiz is not active");
         require(apeCoin.transferFrom(msg.sender, address(this), entryFee), "Failed to transfer entry fee");
         hasContributed[msg.sender] = true;
     }
 
+
     function distributePrizes() external {
-    require(block.timestamp > endTime, "Quiz is still active");
-    require(msg.sender == owner, "Only the owner can distribute prizes");
+        //require(block.timestamp > endTime, "Quiz is still active");
+        require(msg.sender == owner, "Only the owner can distribute prizes");
 
-    uint256 numberOfWinners = fullScoresAdresses.length;
-    require(numberOfWinners > 0, "No winners to distribute prizes to");
+        uint256 numberOfWinners = fullScoresAdresses.length;
+        require(numberOfWinners > 0, "No winners to distribute prizes to");
 
-    uint256 totalPrize = apeCoin.balanceOf(address(this));
-    uint256 prizePerWinner = totalPrize / numberOfWinners;
+        uint256 totalPrize = apeCoin.balanceOf(address(this));
+        uint256 prizePerWinner = totalPrize / numberOfWinners;
 
-    // TODO : need toi handle gaz fees , deduce them from the prize sent to the winners 
-    for (uint i = 0; i < numberOfWinners; i++) {
-        require(apeCoin.transfer(fullScoresAdresses[i], prizePerWinner), "Failed to transfer prize");
-    }
+        // TODO : need to handle gaz fees , deduce them from the prize sent to the winners 
+        for (uint i = 0; i < numberOfWinners; i++) {
+            require(apeCoin.transfer(fullScoresAdresses[i], prizePerWinner), "Failed to transfer prize");
+        }
 }
 
 }
