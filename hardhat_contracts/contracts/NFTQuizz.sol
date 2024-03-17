@@ -12,7 +12,10 @@ contract NFTQuizz is ERC721, ERC721URIStorage {
     string[] IpfsUri = [
         "https://ipfs.io/ipfs/QmSX75ufmhmtPz4cEYMBwLwpACKFzHpu94AsMidRW7A1mv", // NFT winner 
         "https://ipfs.io/ipfs/QmcusKgN4XKSLcJjHD9WF7WAuww6mmcGUkUWKgQsXhW7vA/photo02.json",
-        "https://ipfs.io/ipfs/QmcusKgN4XKSLcJjHD9WF7WAuww6mmcGUkUWKgQsXhW7vA/photo03.json"
+        "https://ipfs.io/ipfs/QmcusKgN4XKSLcJjHD9WF7WAuww6mmcGUkUWKgQsXhW7vA/photo03.json",
+        "https://ipfs.io/ipfs/QmcusKgN4XKSLcJjHD9WF7WAuww6mmcGUkUWKgQsXhW7vA/photo03.json",
+        "https://ipfs.io/ipfs/QmcusKgN4XKSLcJjHD9WF7WAuww6mmcGUkUWKgQsXhW7vA/photo02.json",
+        "https://ipfs.io/ipfs/QmSX75ufmhmtPz4cEYMBwLwpACKFzHpu94AsMidRW7A1mv" // NFT winner 
     ];
 
 
