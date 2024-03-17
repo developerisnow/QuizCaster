@@ -3,3 +3,8 @@ _docs/_documentation/*
 _docs/logs/*
 _docs/*
 _examples/*
+mint-page/node_modules
+mint-page/.next
+mint-page/out
+*.next/*
+*node_modules/*
