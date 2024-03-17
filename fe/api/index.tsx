@@ -1,7 +1,6 @@
 import { Button, Frog } from 'frog'
 // import { neynar } from 'frog/hubs'
 import { handle } from 'frog/vercel'
-import NFTQuizzArtifact from '../../hardhat_contracts/contracts/artifacts/NFTQuizz.json'
 
 // Uncomment to use Edge Runtime.
 // export const config = {
