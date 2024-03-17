@@ -118,11 +118,15 @@ app.frame('/chiliz', (c) => {
 app.frame('/beforeEnd', (c) => {
   return c.res({
     action: '/connectWallet',
-    image: `/beforeEnd.png`,
+    image: `/start.png`,
+    // image: `/beforeEnd.png`,
     imageAspectRatio: '1:1',
     intents: [
-      <Button>Proceed to Connect Wallet</Button>,
-      <Button.Link href="/connectWallet">Proceed to Connect Wallet</Button.Link>,
+      <Button.Mint
+        target="eip155:84532:0xA06B908f35e713a5E731BB9D1e50F3F347124e58">
+        Mint with Warps
+    </Button.Mint>,
+      <Button.Link href="https://quiz-caster-pi.vercel.app/">Mint with Metamask</Button.Link>,
     ],
   })
 })
