@@ -132,7 +132,7 @@ app.frame('/end', (c) => {
     intents: [
       // <Button value="correct">MINT</Button>,
       <Button.Mint
-      target="eip155:84532:0xA06B908f35e713a5E731BB9D1e50F3F347124e58">
+        target="eip155:84532:0xA06B908f35e713a5E731BB9D1e50F3F347124e58">
         {/* target="eip155:84532:0xA06B908f35e713a5E731BB9D1e50F3F347124e58:<token-id-optional>" */}
         MINT NFT - HODL
       </Button.Mint>
