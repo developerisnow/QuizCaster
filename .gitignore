@@ -8,3 +8,5 @@ mint-page/.next
 mint-page/out
 *.next/*
 *node_modules/*
+*.git/*
+mint-page/.git/*
